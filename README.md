@@ -14,6 +14,37 @@ Add this line to your application's Gemfile:
 gem 'enum_select_rails'
 ```
 
+## i18n
+
+```ruby
+# Gemfile
+gem 'enum_help'
+```
+
+```ruby
+# application.rb
+# i18n
+config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
+```
+
+```yaml
+# config/locales/models/user/ja.yml
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+    attributes:
+      user:
+        gender: 性別
+  enums:
+    user:
+      gender:
+        female: 女性
+        male: 男性
+        other: その他
+```
+
+
 ## Contributing
 Contribution directions go here.
 
