@@ -1,0 +1,13 @@
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+    attributes:
+      user:
+        gender: 性別
+  enums:
+    user:
+      gender:
+        female: 女性
+        male: 男性
+        other: その他
