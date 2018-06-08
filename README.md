@@ -27,7 +27,7 @@ end
 ```
 
 ```erbruby
-<%= f.enum_select :your_field_name %>
+<%= f.enum_select :gender %>
 ```
 
 ## i18n
