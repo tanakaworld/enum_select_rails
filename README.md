@@ -7,17 +7,27 @@ You can easily generate select tag which has enum field options.
 ![image](https://user-images.githubusercontent.com/3489430/38072782-eebbea40-3362-11e8-911b-18f56f8b9ed4.png)
 
 
-## Usage
-
-```erbruby
-<%= f.enum_select :your_field_name %>
-```
-
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
 gem 'enum_select_rails'
+```
+
+## Usage
+
+```ruby
+class User
+  enum gender: {    
+    female: 2,
+    male: 1,
+    other: 9
+  }
+end
+```
+
+```erbruby
+<%= f.enum_select :your_field_name %>
 ```
 
 ## i18n
