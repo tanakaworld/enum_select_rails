@@ -1,5 +1,7 @@
 # EnumSelectRails
 
+[![Gem Version](https://badge.fury.io/rb/enum_select_rails.svg)](https://badge.fury.io/rb/enum_select_rails)
+
 A form helper for the enum field of Rails model.
 
 You can easily generate select tag which has enum field options.
