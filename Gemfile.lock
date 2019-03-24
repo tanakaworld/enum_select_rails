@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    enum_select_rails (0.2.0)
+    enum_select_rails (0.3.0)
       enum_help
       rails
 
